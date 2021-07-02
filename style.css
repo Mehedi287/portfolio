@@ -1,0 +1,261 @@
+body{
+	font-family: sans-serif;
+	color:#e1e6ddfa;
+	line-height: 26px; 
+	 background-image:url("https://st4.depositphotos.com/13324256/21596/i/600/depositphotos_215962342-stock-photo-top-view-white-contact-lenses.jpg");
+	 background-size: cover; 
+	  
+
+	 background-attachment: fixed;
+	 
+}
+@keyframes move{
+	from {left: 5px;}
+	to {bottom: 12px;}
+  }
+  
+.header{
+	 margin-left: 40px;
+}
+.name{
+	font-family: initial;	 
+}	 
+ h1 {
+	 font-size: 35px;
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3 {
+	text-align: center;
+	color: aqua;
+	font-size: 25px;
+}
+.header p{
+	text-align: justify;
+	color: rgb(95, 30, 30);
+}
+.menu{
+	width: 95%;
+	height: 75px;
+}
+.menu ul{
+	list-style-type: none;
+	float:right;
+	display: block;
+	border: 2px solid rgb(231, 174, 174);
+	background-color:aqua ;
+	height: 40px;
+	border-radius: 34px 7px 34px 7px;
+	width: auto;
+}
+.menu ul li{
+	float:left;
+	border-right: 1px solid rgb(95, 30, 30);
+	height: 40px;
+	width: auto;
+	display: block;
+}
+.menu ul li:hover a{
+	background-color: orchid;
+ 
+}
+.menu ul li:last-child{
+	border-right:none;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-family: initial;
+	padding: 4px 20px 18px 23px;
+	 text-align: center;
+	 font-size: 18px;
+	 display: block;
+}
+.name{
+	 color: #00ffff;
+}
+ .left-contain{
+
+	 
+ width: 100%;
+ height: auto;
+	
+ } 
+ .left-contain img{
+    width: 590px;
+    height: 476px;
+	margin-left: 471px;
+ }
+ .button{
+	 width: 200px;
+	 height: 35px;
+	 border: 1px solid rgb(114, 97, 97);
+	 border-radius: 34px 7px 34px 7px;
+	 background-color:aquamarine;
+	 margin: 0 auto;
+	 margin-top: 20px ;
+	 transition-duration: 0.4s;
+ }
+ .button a {
+	 text-decoration: none;
+	 margin-left: 50px;
+	 padding: 20px;
+	 font-size: 16px;
+ }
+.button:hover {
+	background-color: rgb(235, 202, 231);
+	color:rgba(58, 13, 43, 0.425);
+ }
+.work-details h2{
+	text-align: center;
+	font-size: 27px;
+	font-style: oblique;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: aqua;
+	transition: 0.5s;
+	 
+}
+.work-details:hover h2{
+	text-decoration: underline;
+	color:  rgb(88, 17, 80);;
+}
+ .work{
+	 width: 100%;
+	 margin-left: 100px;
+ }
+ .project{
+	 width: 40%;
+	 height: auto;
+	 text-align: center;
+	 border: 2px solid  rgb(32, 218, 94);
+	 margin-top: 40px;
+	 float: left;
+	 margin-right: 74px;
+	 box-shadow: 0px 4px 43px 33px;
+	 transition-duration: 0.5s;
+	 border-radius: 4px 72px 0px 61px;
+	 margin-bottom: 40px;
+ 
+
+ }
+
+.project:hover{
+	background-color: rgb(235, 202, 231);
+	box-shadow: 10px 0px 23px 3px;
+	border:2px solid aqua;
+
+
+}
+
+
+.project img{
+	 width: 500px;
+	 height: 200px;
+	 margin-left: px;
+	 margin-top: 40px;
+	 margin-bottom: 60px;
+	  
+	  
+ }
+ .project h4{
+	margin-left: 43px; 
+	color: aqua;
+	font-family: cursive;
+	font-size: 20px;
+	transition-duration: 00.5s;
+ }
+ .project:hover h4{
+	 color:rgba(58, 13, 43, 0.425);
+	 text-shadow: 20px 23px 12px 2px;
+ }
+ .my-service{
+	 height: auto;
+	 display: block;
+ }
+ .my-service h2{
+	 text-align: center;
+	 margin-top: 40px;
+	 color: rgba(83, 29, 29, 0.76);
+	 font-size: 27px;
+	 font-weight: 600;
+	 font-family: unset;
+	
+ }
+ .my-service h2:hover{
+	text-decoration: underline;
+	color: rgb(212, 87, 185);
+ }
+ .logo-wrap{
+	 margin-left: 120px;
+	 height: fit-content;
+	 
+ }
+ .logo{
+	 width: 400px;
+	 height: 260px;
+	 float: left;
+	 border: 1px solid rgb(226, 245, 117);
+	 margin-right: 20px;
+	 margin-bottom: 100px;
+	 border-radius: 20px;
+	 box-shadow: 17px -1px 21px 5px;
+	 transition-duration: 0.5s;
+	 
+ }
+ .logo:hover{
+	 color: lightcyan;
+	 border: 2px solid rgb(184, 255, 51);
+ }
+ .logo img{
+	 width: 200px;
+	 height: 150px;
+	 margin: 26px 100px;
+ }
+ .logo p{
+	 text-align: center;
+	 font-size: 20px;
+	 color: rgb(98, 114, 98);
+ }
+  .footer img{
+	height: 30px;
+	width: 30px;
+ 
+	display: block;
+}
+     
+     
+  
+  
+  
+  
+  
+  
+  
+	 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
