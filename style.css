@@ -9,19 +9,25 @@ body{
 	 background-attachment: fixed;
 	 
 }
+  
+  
+  
+  
+  
+  
+ 
 @keyframes move{
 	from {left: 5px;}
 	to {bottom: 12px;}
   }
-  
 .header{
-	 margin-left: 40px;
+	text-align: center;
 }
 .name{
 	font-family: initial;	 
 }	 
  h1 {
-	 font-size: 35px;
+	 font-size: 40px;
 	text-align: center;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -34,11 +40,14 @@ h3 {
 	text-align: justify;
 	color: rgb(95, 30, 30);
 }
-.menu{
-	width: 95%;
-	height: 75px;
-}
-.menu ul{
+ 
+ 
+ .menu{
+	 width: 100%;
+	 display: block;
+ }
+ 
+ul{
 	list-style-type: none;
 	float:right;
 	display: block;
@@ -48,21 +57,17 @@ h3 {
 	border-radius: 34px 7px 34px 7px;
 	width: auto;
 }
-.menu ul li{
+ ul li{
 	float:left;
 	border-right: 1px solid rgb(95, 30, 30);
 	height: 40px;
 	width: auto;
-	display: block;
+
 }
-.menu ul li:hover a{
-	background-color: orchid;
- 
-}
-.menu ul li:last-child{
+ul li:last-child{
 	border-right:none;
 }
-.menu ul li a{
+ul li a{
 	text-decoration: none;
 	font-family: initial;
 	padding: 4px 20px 18px 23px;
@@ -70,51 +75,98 @@ h3 {
 	 font-size: 18px;
 	 display: block;
 }
+ 
+
+ 
+ 
 .name{
 	 color: #00ffff;
 }
- .left-contain{
-
+.bio{
+	margin-top: 100px;
 	 
- width: 100%;
- height: auto;
+	 
+}
+.left-contain{
+	width: 40%;
+	float: left;
+	display: block;
+	margin-left: 4%;
+	margin-right: 5%;
+	 border: 1px solid rgb(236, 164, 164);
+	 transition-duration: 0.3s;
+	 margin-bottom: 80px;
+ 
 	
  } 
- .left-contain img{
-    width: 590px;
-    height: 476px;
-	margin-left: 471px;
+ .left-contain:hover{
+	 box-shadow: 2px -4px 7px rgb(131, 230, 225);
  }
+ .left-contain img{
+    width: 90%;
+	padding: 40px;
+    
+	
+ }
+  
+  
+
+  
+ .left-contain p{
+	 padding: 40px;
+	 text-align: justify;
+	 color: rgb(10, 8, 32);
+	 transition-duration: 0.4s;
+
+	
+ }
+ .left-contain:hover p{
+	text-shadow: 1px 1px 1px;
+ }
+ .left-contain h2{
+	 text-align: center;	
+	 color: #00ffff;
+	 font-size: 22px;
+	}
  .button{
-	 width: 200px;
-	 height: 35px;
+	width: 119px;
+	height: 30px;
 	 border: 1px solid rgb(114, 97, 97);
 	 border-radius: 34px 7px 34px 7px;
 	 background-color:aquamarine;
-	 margin: 0 auto;
-	 margin-top: 20px ;
+	  margin: 0 auto;
+	font-weight: 600;
 	 transition-duration: 0.4s;
- }
- .button a {
 	 text-decoration: none;
-	 margin-left: 50px;
-	 padding: 20px;
-	 font-size: 16px;
+	  display: block;
+	  padding: 7px 29px;
+	text-align: center;
+	 font-size: 19px;
  }
+  
+  
+  
+ 
+ 
+  
 .button:hover {
 	background-color: rgb(235, 202, 231);
-	color:rgba(58, 13, 43, 0.425);
+	color:rgba(17, 6, 14, 0.89);
  }
-.work-details h2{
+ .body{
+	 margin-top:100px;
+ }
+.work-details {
 	text-align: center;
 	font-size: 27px;
 	font-style: oblique;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: aqua;
 	transition: 0.5s;
-	 
+	 display: block;
+	margin-top: 70px;
 }
-.work-details:hover h2{
+.work-details:hover{
 	text-decoration: underline;
 	color:  rgb(88, 17, 80);;
 }
